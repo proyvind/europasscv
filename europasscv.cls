@@ -296,6 +296,9 @@
 \RequirePackage{textcomp} % For copyright symbol
 \RequirePackage{enumitem}
 \RequirePackage[hidelinks]{hyperref}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue}
 \RequirePackage{colortbl}
 \RequirePackage{graphicx}
 \if@ecvdebug \RequirePackage{showframe} \fi
